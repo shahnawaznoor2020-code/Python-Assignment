@@ -48,5 +48,4 @@ This program:
 - String concatenation  
 - Output formatting using `print()`
 
-### Expected Output
-The program outputs a greeting message such as:
+
