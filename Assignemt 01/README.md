@@ -1,6 +1,6 @@
 # Assignment 1 – Module 2: Basic Python Concepts
 
-This repository contains **Assignment 1** for **Module 2: Basic Python Concepts**. The purpose of this assignment is to apply fundamental Python programming concepts through hands-on practice using simple, well-defined tasks.
+This repository contains **Assignment 1** for **Module: Basic Python Concepts**. The purpose of this assignment is to apply fundamental Python programming concepts through hands-on practice using simple, well-defined tasks.
 
 The assignment consists of **two independent Python programs**, each designed to demonstrate core concepts such as user input, operators, string handling, and output formatting.
 
