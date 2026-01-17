@@ -53,5 +53,5 @@ The program displays the **sum of all integers from 1 to 50**.
 
 ---
 
-## Example Output
+
 
