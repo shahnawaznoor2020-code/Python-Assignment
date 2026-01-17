@@ -1,52 +1,57 @@
-# Assignment 1 – Module 2: Basic Python Concepts
+# Assignment 2 – Module 2: Control Flow and Loops in Python
 
-This repository contains **Assignment 1** for **Module 2: Basic Python Concepts**. The purpose of this assignment is to apply fundamental Python programming concepts through hands-on practice using simple, well-defined tasks.
+This repository contains **Assignment 2** for **Module 2**, focusing on **control flow statements and loops** in Python.  
+The objective of this assignment is to strengthen understanding of **conditional logic**, **loops**, and **basic arithmetic operations** through simple programs.
 
-The assignment consists of **two independent Python programs**, each designed to demonstrate core concepts such as user input, operators, string handling, and output formatting.
+The assignment consists of **two independent Python programs**, each demonstrating a core programming concept.
 
 ---
 
-## Task 1: Perform Basic Mathematical Operations
+## Task 1: Check Whether a Number is Even or Odd
 
 ### Objective
-To create a Python program that performs basic arithmetic operations using user-provided input.
+To create a Python program that determines whether a given number is **even** or **odd**.
 
 ### Description
 This program:
-1. Takes **two numbers** as input from the user.
-2. Performs the following mathematical operations:
-   - Addition  
-   - Subtraction  
-   - Multiplication  
-   - Division  
-3. Displays the result of each operation on the screen.
+1. Takes an **integer input** from the user.
+2. Uses a **conditional expression (ternary operator)** to check if the number is even or odd.
+3. Displays the appropriate result on the screen.
 
 ### Concepts Used
 - `input()` for user input  
-- Type conversion (`int` / `float`)  
-- Arithmetic operators (`+`, `-`, `*`, `/`)  
+- Type conversion using `int`  
+- Modulus operator (`%`)  
+- Conditional (ternary) operator  
 - Output using `print()`
 
 ### Expected Output
-The program displays the calculated results of all four operations for the given input values.
+The program displays whether the entered number is **even** or **odd**.
 
 ---
 
-## Task 2: Create a Personalized Greeting
+## Task 2: Calculate the Sum of Numbers from 1 to 50
 
 ### Objective
-To create a Python program that generates a personalized greeting using user input.
+To create a Python program that calculates the **sum of numbers from 1 to 50**.
 
 ### Description
 This program:
-1. Takes the user's **first name** and **last name** as input.
-2. Concatenates the first and last name to form a **full name**.
-3. Prints a **personalized greeting message** using the full name.
+1. Uses a `for` loop to iterate through numbers from **1 to 50**.
+2. Adds each number to a running total.
+3. Prints the final sum.
 
 ### Concepts Used
-- User input handling  
-- String concatenation  
-- Output formatting using `print()`
+- `for` loop  
+- `range()` function  
+- Variable initialization  
+- Arithmetic addition  
+- Output using `print()`
 
 ### Expected Output
-The program outputs a greeting message such as:
+The program displays the **sum of all integers from 1 to 50**.
+
+---
+
+## Example Output
+
