@@ -1,57 +1,61 @@
-# Assignment 2 – Module 2: Control Flow and Loops in Python
+# Assignment 3 – Module 2: Functions and Math Module in Python
 
-This repository contains **Assignment 2** for **Module 2**, focusing on **control flow statements and loops** in Python.  
-The objective of this assignment is to strengthen understanding of **conditional logic**, **loops**, and **basic arithmetic operations** through simple programs.
+This repository contains **Assignment 3** for **Module 2**, focusing on **user-defined functions, recursion, and the built-in math module** in Python.
 
-The assignment consists of **two independent Python programs**, each demonstrating a core programming concept.
+The purpose of this assignment is to practice:
+- Writing reusable functions  
+- Understanding recursion  
+- Using Python's built-in `math` module  
+- Performing mathematical computations  
+
+The assignment consists of **two independent tasks**.
 
 ---
 
-## Task 1: Check Whether a Number is Even or Odd
+## Task 1: Calculate Factorial Using a Recursive Function
 
 ### Objective
-To create a Python program that determines whether a given number is **even** or **odd**.
+To create a Python program that calculates the **factorial of a number** using a **recursive function**.
 
 ### Description
 This program:
-1. Takes an **integer input** from the user.
-2. Uses a **conditional expression (ternary operator)** to check if the number is even or odd.
-3. Displays the appropriate result on the screen.
+1. Defines a function `fact(num)` that calculates factorial using recursion.
+2. Takes an integer input from the user.
+3. Calls the function to compute the factorial.
+4. Displays the result using formatted output.
 
 ### Concepts Used
-- `input()` for user input  
-- Type conversion using `int`  
-- Modulus operator (`%`)  
-- Conditional (ternary) operator  
-- Output using `print()`
+- User-defined functions  
+- Recursion  
+- `if-else` conditional statements  
+- User input with `input()`  
+- Formatted string output (f-strings)
 
-### Expected Output
-The program displays whether the entered number is **even** or **odd**.
 
----
 
-## Task 2: Calculate the Sum of Numbers from 1 to 50
+## Task 2: Perform Mathematical Calculations Using the Math Module
 
 ### Objective
-To create a Python program that calculates the **sum of numbers from 1 to 50**.
+To create a Python program that performs various mathematical operations using Python’s built-in `math` module.
 
 ### Description
 This program:
-1. Uses a `for` loop to iterate through numbers from **1 to 50**.
-2. Adds each number to a running total.
-3. Prints the final sum.
+1. Imports the `math` module.
+2. Takes a positive number as input.
+3. Calculates:
+   - Square root  
+   - Natural logarithm  
+   - Sine value  
+4. Displays all results using formatted output.
 
 ### Concepts Used
-- `for` loop  
-- `range()` function  
-- Variable initialization  
-- Arithmetic addition  
-- Output using `print()`
-
-### Expected Output
-The program displays the **sum of all integers from 1 to 50**.
-
----
-
+- Importing modules (`import math`)  
+- Using math functions:
+  - `math.sqrt()`  
+  - `math.log()`  
+  - `math.sin()`  
+  - `math.e`  
+- User input handling  
+- Formatted string output (f-strings)
 
 
